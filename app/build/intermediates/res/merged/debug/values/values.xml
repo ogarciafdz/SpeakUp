@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#F5FFFA</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="abrepuerta"> Open the door  </string>
+    <string name="abuela">Grandmother</string>
+    <string name="abuelo">Grandfather</string>
+    <string name="acostarse"> Going to bed </string>
+    <string name="action_settings">Settings</string>
+    <string name="actividad">Extras</string>
+    <string name="agua"> Water </string>
+    <string name="amiga">Friend</string>
+    <string name="amigo">Boyfriend</string>
+    <string name="app_name">Speakup</string>
+    <string name="arroz"> Rice </string>
+    <string name="basketball">Basketball</string>
+    <string name="beber"> Drink </string>
+    <string name="blusa">Blouse</string>
+    <string name="borrar"> Erase </string>
+    <string name="brocoli"> Broccoli </string>
+    <string name="cafe"> Cafe </string>
+    <string name="camisa">Shirt</string>
+    <string name="camiseta">T-shirt</string>
+    <string name="carne"> Meat </string>
+    <string name="cartas">Poker</string>
+    <string name="celular"> Using Mobile </string>
+    <string name="chocolatosa"> Milk chocolate </string>
+    <string name="coloreal"> Coloring </string>
+    <string name="comer">Eat</string>
+    <string name="como_se_dice">Speak up..!!</string>
+    <string name="compu">Use the computer</string>
+    <string name="cubiertos">use cutlery</string>
+    <string name="dormir"> Go to sleep </string>
+    <string name="escribir"> Write </string>
+    <string name="falda">Skirt</string>
+    <string name="frecuentes">Frequently</string>
+    <string name="frijol"> Bean </string>
+    <string name="fruta"> Fruits </string>
+    <string name="futbol">Football</string>
+    <string name="galleta"> Cookie </string>
+    <string name="gorra">Cap</string>
+    <string name="hello_world">ola</string>
+    <string name="hermana">Sister</string>
+    <string name="hermano">Brother</string>
+    <string name="huevo"> Egg </string>
+    <string name="introduce_alguna_frase_">Introduce some phrase </string>
+    <string name="ircama"> Go to my bed </string>
+    <string name="ircasa"> Go to my house </string>
+    <string name="ircocina"> Go to the kitchen </string>
+    <string name="irparque"> go to the park </string>
+    <string name="jugar">Play</string>
+    <string name="jugarfut"> Football </string>
+    <string name="leche"> Milk </string>
+    <string name="lechuga"> Lettuce </string>
+    <string name="leer"> Read a book </string>
+    <string name="libreta">Write on book </string>
+    <string name="logo">speakup</string>
+    <string name="lonche"> I eat my lunch </string>
+    <string name="maestra">Mistress</string>
+    <string name="maestro">Teacher</string>
+    <string name="mama">Mother</string>
+    <string name="manzana"> Apple </string>
+    <string name="medicina">Give me my medicine </string>
+    <string name="melon"> Melon </string>
+    <string name="oraciones">Statements</string>
+    <string name="pan"> Bread </string>
+    <string name="pantalon">Pair of trousers</string>
+    <string name="papa">Father</string>
+    <string name="pasta"> Pasta </string>
+    <string name="pegamento"> Glue </string>
+    <string name="pepino"> Cucumber </string>
+    <string name="pera"> Pear </string>
+    <string name="perro">With my dog</string>
+    <string name="pescado"> Fish </string>
+    <string name="platano"> Bannana </string>
+    <string name="platicar"> Chat </string>
+    <string name="pollo"> Chicken </string>
+    <string name="posicion"> Could change my position </string>
+    <string name="pronuncia">Speak up..!</string>
+    <string name="pudesbanoio"> I can take a bath </string>
+    <string name="puedo_">Can i?</string>
+    <string name="queso"> Cheese </string>
+    <string name="rectoar"> Trim </string>
+    <string name="saca">Sharpener</string>
+    <string name="salir"> Exit </string>
+    <string name="sandia">Wathermelon</string>
+    <string name="sentarse">Sit</string>
+    <string name="sillon"> Sitting on the couch </string>
+    <string name="soda"> Soda </string>
+    <string name="sueter">Sweater</string>
+    <string name="tacones">High heels</string>
+    <string name="telefono">Using telephone</string>
+    <string name="tenis">Tennis</string>
+    <string name="title_activity_casa_frec"> House </string>
+    <string name="title_activity_comida">Food</string>
+    <string name="title_activity_escuela_frec"> School </string>
+    <string name="title_activity_frecuente"> Frequently Fraces  </string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_juegos">Games</string>
+    <string name="title_activity_otrasfrec"> Other </string>
+    <string name="title_activity_personas">Persons</string>
+    <string name="title_activity_pronuncia">Speak up..!</string>
+    <string name="title_activity_ropa">Clothes</string>
+    <string name="title_activity_verbos"> Verbs </string>
+    <string name="tomate"> Tomato </string>
+    <string name="tortilla"> Tortilla </string>
+    <string name="tv"> Watching TV </string>
+    <string name="usar">Wear</string>
+    <string name="usarelbano"> Toileting </string>
+    <string name="usarsilla">Move a chair</string>
+    <string name="uvas"> Grapes </string>
+    <string name="verduras"> Vegetables </string>
+    <string name="vestido">Dress</string>
+    <string name="videojuegos">Video games</string>
+    <string name="we_speak_for_you">We Speak For You</string>
+    <string name="zanahoria"> Carrot </string>
+    <string name="zapatos">Shoes</string>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/styles_speakuptheme.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_speakuptheme</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_speakuptheme</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_speakuptheme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Speakuptheme</item>
+    </style>
+    <style name="ActionBar.Transparent.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_speakuptheme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Speakuptheme</item>
+    </style>
+    <style name="ActionBarTabStyle.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_speakuptheme</item>
+    </style>
+    <style name="ActionButton.CloseMode.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_speakuptheme</item>
+    </style>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/styles_speakuptheme.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Speakuptheme" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_speakuptheme</item>
+    </style>
+    <style name="DropDownNav.Speakuptheme" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_speakuptheme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_speakuptheme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_speakuptheme</item>
+    </style>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values/styles_speakuptheme.xml -->
+    <eat-comment/>
+    <style name="PopupMenu.Speakuptheme" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_speakuptheme</item>	
+    </style>
+    <style name="ProgressBar.Speakuptheme" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_speakuptheme</item>
+    </style>
+    <style name="Theme.Speakuptheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_speakuptheme</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Speakuptheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Speakuptheme</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Speakuptheme</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Speakuptheme</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Speakuptheme</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_speakuptheme</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_speakuptheme</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Speakuptheme</item>
+        
+        
+    </style>
+    <style name="Theme.Speakuptheme.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Speakuptheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Speakuptheme</item>
+    </style>
+</resources>

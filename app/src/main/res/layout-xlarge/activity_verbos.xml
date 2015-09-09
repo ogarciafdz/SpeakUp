@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="600dp"
+    android:background="@drawable/fondo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/VimageButton1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ic_acostarse" />
+
+                <ImageButton
+                    android:id="@+id/VimageButton2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ic_bano" />
+
+                <ImageButton
+                    android:id="@+id/VimageButton3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ic_cama_2" />
+
+                <ImageButton
+                    android:id="@+id/VimageButton4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ic_cocina" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/VimageButton5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_colorear" />
+
+            <ImageButton
+                android:id="@+id/VimageButton6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_comer" />
+
+            <ImageButton
+                android:id="@+id/VimageButton7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_casa" />
+
+            <ImageButton
+                android:id="@+id/VimageButton8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_celular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/VimageButton9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_cuaderno" />
+
+            <ImageButton
+                android:id="@+id/VimageButton10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_dormir" />
+
+            <ImageButton
+                android:id="@+id/VimageButton11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_futbol" />
+
+            <ImageButton
+                android:id="@+id/VimageButton12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_hablar_en_grupo_14835" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/VimageButton13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_lapiz" />
+
+            <ImageButton
+                android:id="@+id/VimageButton14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_leer" />
+
+            <ImageButton
+                android:id="@+id/VimageButton15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_libro_copy" />
+
+            <ImageButton
+                android:id="@+id/VimageButton16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_llamar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/VimageButton17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_salir" />
+
+            <ImageButton
+                android:id="@+id/VimageButton18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_sentarse" />
+
+            <ImageButton
+                android:id="@+id/VimageButton19"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_silla" />
+
+            <ImageButton
+                android:id="@+id/VimageButton20"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/ic_parque" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

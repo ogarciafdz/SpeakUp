@@ -1,0 +1,2 @@
+/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/build/intermediates/classes/debug
+/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-94a45492712f919c79c73f17e67a50fbbc06cfa0.jar

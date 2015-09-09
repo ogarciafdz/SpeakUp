@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/enter"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/speak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:background="@color/black_overlay"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@android:color/white" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter"
+        android:layout_alignLeft="@+id/speak"
+        android:layout_alignRight="@+id/speak"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:background="@color/black_overlay"
+        android:text="@string/introduce_alguna_frase_"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/como_se_dice" />
+
+</RelativeLayout>

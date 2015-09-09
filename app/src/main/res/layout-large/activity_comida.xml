@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewC1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ADFF2F"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageButton
+                    android:id="@+id/imageButtonverduras"
+                    android:layout_width="52dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_verduras"
+                   />
+
+                <ImageButton
+                    android:id="@+id/imageButtonlechuga"
+                    android:layout_width="56dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_lechuga" 
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageButtontomate"
+                    android:layout_width="52dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_tomate"
+                    android:contentDescription="@null" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonzanahoria"
+                    android:layout_width="54dp"
+                    android:layout_height="49dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_zanahoria"
+                    android:contentDescription="@null" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonpepino"
+                    android:layout_width="72dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_pepino"
+                    android:contentDescription="@null" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonbrocoli"
+                    android:layout_width="56dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_broccoli" 
+                    android:contentDescription="@null"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewC2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF4500"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imageButtoncarne"
+                    android:layout_width="57dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_carne" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonpescado"
+                    android:layout_width="57dp"
+                    android:layout_height="51dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_pescado_5803" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonpollo"
+                    android:layout_width="0dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_pollo" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonhuevo"
+                    android:layout_width="57dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_huevo" 
+                    android:contentDescription="@null"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewC3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F8FF"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+                <ImageButton
+                    android:id="@+id/imageButtonqueso"
+                    android:layout_width="80dp"
+                    android:layout_height="73dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_cheese" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonchoco"
+                    android:layout_width="78dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_chocomilk" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonleche"
+                    android:layout_width="76dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_leche" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonsoda"
+                    android:layout_width="76dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_soda" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtoncafe"
+                    android:layout_width="76dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_coffee" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonagua"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_agua"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewC4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4A460"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               >
+
+                <ImageButton
+                    android:id="@+id/imageButtonpasta"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_pasta" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonpan"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_pan"
+                    android:contentDescription="@null" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonfrijol"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_frijoles" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtongalleta"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_galleta"
+                    android:contentDescription="@null" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonarroz"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_arroz_copy" 
+                    android:contentDescription="@null"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtontortilla"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_tortilla"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewC5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD5C5C"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imageButtonfrutas"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_frutas" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonmanzana"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_manzana" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonplatano"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_platano" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonmelon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_melon" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonsandia"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_sandia" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonpera"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_pera" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonuvas"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_uvas" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

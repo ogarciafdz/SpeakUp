@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="600dp"
+    android:background="@drawable/fondo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ECC8EC"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/mama"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/mama"
+                    android:src="@drawable/ic_mama" />
+
+                <ImageButton
+                    android:id="@+id/hermana"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/maestra"
+                    android:src="@drawable/ic_hermana" />
+
+                <ImageButton
+                    android:id="@+id/abuela"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/abuela"
+                    android:src="@drawable/ic_abuela" />
+
+                <ImageButton
+                    android:id="@+id/amiga"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/amiga"
+                    android:src="@drawable/ic_amigas" />
+
+                <ImageButton
+                    android:id="@+id/maestra"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/maestra"
+                    android:src="@drawable/ic_mestra" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00CED1"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/papa"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/papa"
+                    android:src="@drawable/ic_dibujo_para_papa" />
+
+                <ImageButton
+                    android:id="@+id/hermano"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/hermano"
+                    android:src="@drawable/ic_hermano" />
+
+                <ImageButton
+                    android:id="@+id/abuelo"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/abuelo"
+                    android:src="@drawable/ic_abuelo" />
+
+                <ImageButton
+                    android:id="@+id/amigo"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/amigo"
+                    android:src="@drawable/ic_amigo" />
+
+                <ImageButton
+                    android:id="@+id/maestro"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/maestro"
+                    android:src="@drawable/ic_maestro" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/puedo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:text="@string/puedo_" />
+
+        <Space
+            android:layout_width="00dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/usar"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"
+                android:contentDescription="@string/usar"
+                android:text="@string/usar" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/comer"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="@string/comer" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/jugar"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/buttonshape"
+                android:text="@string/jugar" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/actividad"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonshape"
+            android:text="@string/actividad" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/layout-normal/activity_personas.xml -->

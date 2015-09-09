@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallnew"
+    android:orientation="vertical"
+    tools:context=".FrecuenteActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_entrada" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_salir" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_bathroom" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_sentarse" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_cocina" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_comer" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_cubiertos" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_beber" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_silla" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton10"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_casa" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton11"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_llamar" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton12"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_dormir" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton13"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_sillon" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton14"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_compu" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton15"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_tv" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton16"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/ic_cama_2" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/CFimageButton17"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/ic_medicine" />
+
+</LinearLayout>

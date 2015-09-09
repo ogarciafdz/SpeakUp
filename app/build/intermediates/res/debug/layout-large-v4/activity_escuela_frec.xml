@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EscuelaFrec" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/EFimageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_lapiz" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_tijeras" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_sacpunt" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton4"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="51dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_pegamento" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/EFimageButton6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_entrada" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_salir" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_sentarse" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_bathroom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/EFimageButton9"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_colorear" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton10"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_cuaderno" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton11"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_borrador" />
+
+        <ImageButton
+            android:id="@+id/EFimageButton12"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_lonche" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/layout-large/activity_escuela_frec.xml -->

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity main -->
+    <string name="app_name">Speakup</string>
+    <string name="logo">speakup</string>
+    <string name="pronuncia">Pronuncia</string>
+    <string name="oraciones">Oraciones</string>
+    <string name="frecuentes">Frecuentes</string>
+    <string name="we_speak_for_you">We Speak For You</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <!-- Procuncia activity -->
+    <string name="title_activity_pronuncia">Pronuncia</string>
+    <string name="introduce_alguna_frase_">Introduce Alguna Frase:</string>
+    <string name="como_se_dice">Como se Dice?</string>
+
+    <!-- Personas activity -->
+    <string name="title_activity_personas">Personas</string>
+    <string name="mama">Mamá</string>
+    <string name="abuela">Abuela</string>
+    <string name="amiga">Amiga</string>
+    <string name="hermana">Hermana</string>
+    <string name="maestra">Maestra</string>
+    <string name="papa">Papá</string>
+    <string name="abuelo">Abuelo</string>
+    <string name="amigo">Amigo</string>
+    <string name="hermano">Hermano</string>
+    <string name="maestro">Maestro</string>
+    <string name="puedo_">Puedo ?</string>
+
+    <!-- usar en actividades -->
+    <string name="comer">Comer</string>
+    <!--  -->
+    <string name="usar">Usar</string>
+    <string name="jugar">Jugar</string>
+    <string name="actividad">Actividad</string>
+
+    <!-- Usar activity -->
+    <string name="title_activity_ropa">Ropa</string>
+    <string name="camisa">Camisa</string>
+    <string name="pantalon">Pantalon</string>
+    <string name="tenis">Tenis</string>
+    <string name="camiseta">Camiseta</string>
+    <string name="gorra">Gorra</string>
+    <string name="sueter">Sueter</string>
+    <string name="zapatos">Zapatos</string>
+    <string name="falda">Falda</string>
+    <string name="blusa">Blusa</string>
+    <string name="tacones">Tacones</string>
+    <string name="vestido">Vestido</string>
+
+    <!-- Juego activity -->
+    <string name="title_activity_juegos">Juegos</string>
+    <string name="futbol">Fútbol</string>
+    <string name="cartas">Cartas</string>
+    <string name="videojuegos">Video juegos</string>
+    <string name="basketball">Basketball</string>
+    <string name="perro">Con el perro</string>
+
+    <!-- Comida Activity -->
+    <string name="title_activity_comida">Comida</string>
+    <string name="verduras">Verduras</string>
+    <string name="lechuga">Lechuga</string>
+    <string name="tomate">Tomate</string>
+    <string name="zanahoria">Zanahoria</string>
+    <string name="pepino">Pepino</string>
+    <string name="brocoli">Brocoli</string>
+    <string name="carne">Carne</string>
+    <string name="pescado">Pescado</string>
+    <string name="pollo">Pollo</string>
+    <string name="huevo">Huevo</string>
+    <string name="queso">Queso</string>
+    <string name="chocolatosa">Leche con chocolate</string>
+    <string name="leche">Leche</string>
+    <string name="soda">Soda</string>
+    <string name="cafe">Café</string>
+    <string name="agua">Agua</string>
+    <string name="pasta">Pasta</string>
+    <string name="pan">Pan</string>
+    <string name="frijol">Frijol</string>
+    <string name="galleta">Galleta</string>
+    <string name="arroz">Arroz</string>
+    <string name="tortilla">Tortilla</string>
+    <string name="fruta">Fruta</string>
+    <string name="manzana">Manzana</string>
+    <string name="platano">Platano</string>
+    <string name="melon">Melon</string>
+    <string name="sandia">Sandia</string>
+    <string name="pera">Pera</string>
+    <string name="uvas">Uvas</string>
+
+    <!-- Actividad activity -->
+    <string name="title_activity_verbos">Verbos</string>
+    <string name="acostarse">Acostarme</string>
+    <string name="usarelbano">Ir al baño</string>
+    <string name="ircama">Ir a mi cama</string>
+    <string name="ircocina">Ir a la cocina</string>
+    <string name="coloreal">Colorear</string>
+    <string name="ircasa">Ir a mi casa</string>
+    <string name="celular">Usar el celular</string>
+    <string name="libreta">Escribir en la libreta</string>
+    <string name="dormir">Ir a dormir</string>
+    <string name="jugarfut">Fútbol</string>
+    <string name="platicar">Platicar</string>
+    <string name="escribir">Escribir</string>
+    <string name="leer">Leer un libro</string>
+    <string name="telefono">Usar el telefono</string>
+    <string name="salir">Salir</string>
+    <string name="sentarse">Sentarme</string>
+    <string name="usarsilla">Mover la silla</string>
+    <string name="irparque">ir al parque</string>
+
+    <!-- Frecuentes Activity -->
+    <string name="title_activity_frecuente">Fraces Frecuentes</string>
+    <string name="title_activity_casa_frec">Casa</string>
+    <string name="title_activity_escuela_frec">Escuela</string>
+    <string name="title_activity_otrasfrec">Otras</string>
+
+    <!-- Casa activity -->
+    <string name="abrepuerta">Abrir la puerta</string>
+    <string name="cubiertos">Usar los cubiertos</string>
+    <string name="beber">Beber</string>
+    <string name="sillon">Sentarme en el sillon</string>
+    <string name="compu">Usar la computadora</string>
+    <string name="tv">Ver la tele</string>
+    <string name="medicina">Me das mi medicina</string>
+
+    <!-- Escuela activity -->
+    <string name="rectoar">Recortar</string>
+    <string name="saca">Sacar Punta</string>
+    <string name="pegamento">Pegamento</string>
+    <string name="borrar">Borrar</string>
+    <string name="lonche">Puedo comer mi lonche</string>
+
+    <!-- Otras activity -->
+    <string name="pudesbanoio">Me puedes dar un baño</string>
+    <string name="posicion">Podrias cambiar mi posicion</string>
+
+</resources>

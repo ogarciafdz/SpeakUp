@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="436dp"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+        android:background="@drawable/fondo" >
+    
+
+    <ImageButton
+        android:id="@+id/JimageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_soccer_3" 
+        android:contentDescription="@string/hello_world"/>
+
+    <ImageButton
+        android:id="@+id/JimageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_package_games" 
+        android:contentDescription="@string/hello_world"/>
+
+    <ImageButton
+        android:id="@+id/JimageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_package_games_arcade" 
+        android:contentDescription="@string/hello_world"/>
+
+    <ImageButton
+        android:id="@+id/JimageButton4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_basketball_ball"
+        android:contentDescription="@string/hello_world" />
+
+    <ImageButton
+        android:id="@+id/JimageButton5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_perr" 
+        android:contentDescription="@string/hello_world"/>
+</LinearLayout>
+
+</ScrollView>

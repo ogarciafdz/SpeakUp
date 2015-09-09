@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+>
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+    
+	 <HorizontalScrollView 
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="#00CED1" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/PimageButton2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_mama" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_abuela"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/PimageButton4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_amigas" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/PimageButton3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_mestra"
+            android:contentDescription="@null" />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+	 
+	 
+	 <HorizontalScrollView 
+    android:id="@+id/horizontalScrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="#ECC8EC" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/PimageButton1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_dibujo_para_papa" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_abuelo" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/PimageButton5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_amigo" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_maestro" 
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/puedo_" />
+
+    <Space
+        android:layout_width="00dp"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/usar" />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:text="@string/comer" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/jugar" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/actividad" 
+        
+        />
+
+
+</LinearLayout>
+
+</ScrollView>

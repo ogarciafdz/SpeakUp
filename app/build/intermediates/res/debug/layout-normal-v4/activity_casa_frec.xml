@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FrecuenteActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton1"
+            android:layout_width="70dp"
+            android:layout_height="71dp"
+            android:src="@drawable/ic_entrada"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton2"
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_salir"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton3"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_bathroom" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sentarse" 
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton5"
+            android:layout_width="70dp"
+            android:layout_height="71dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cocina" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton6"
+            android:layout_width="70dp"
+            android:layout_height="73dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_comer" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cubiertos" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton8"
+            android:layout_width="76dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_beber" 
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton9"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_silla"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton10"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_casa" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton11"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_llamar" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton12"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_dormir"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp" >
+
+        <ImageButton
+            android:id="@+id/CFimageButton13"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sillon" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_compu"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/CFimageButton15"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tv" 
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:id="@+id/CFimageButton16"
+            android:layout_width="70dp"
+            android:layout_height="73dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cama_2" 
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/CFimageButton17"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_medicine" 
+        android:contentDescription="@null"/>
+    
+</LinearLayout><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/layout-normal/activity_casa_frec.xml -->
