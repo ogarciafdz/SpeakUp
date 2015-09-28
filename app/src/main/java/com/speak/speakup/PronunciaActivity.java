@@ -3,35 +3,58 @@ package com.speak.speakup;
 import java.util.Locale;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.speech.tts.TextToSpeech.OnInitListener;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class PronunciaActivity extends Activity implements OnClickListener,
-		OnInitListener {
+public class PronunciaActivity extends Activity  {
 
-	private TextToSpeech textoRep;
-	private int CHECK_CODE = 0;
+	TextToSpeech t1;
+	EditText ed1;
+	Button b1;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pronuncia);
 
-		Button EscuchaBoton = (Button) findViewById(R.id.speak);
-		EscuchaBoton.setOnClickListener(this);
+		ed1=(EditText)findViewById(R.id.enter);
+		b1=(Button)findViewById(R.id.speak);
 
-		Intent verificaIntencion = new Intent();
-		verificaIntencion.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
-		startActivityForResult(verificaIntencion, CHECK_CODE);
+		t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+			@Override
+			public void onInit(int status) {
+				if(status != TextToSpeech.ERROR) {
+					t1.setLanguage(Locale.ROOT);
+				}
+			}
+		});
 
+		b1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				String toSpeak = ed1.getText().toString();
+				Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+				t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+			}
+		});
+
+
+	}
+
+
+	public void onPause(){
+		if(t1 !=null){
+			t1.stop();
+			t1.shutdown();
+		}
+		super.onPause();
 	}
 
 	@Override
@@ -41,44 +64,20 @@ public class PronunciaActivity extends Activity implements OnClickListener,
 		return true;
 	}
 
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		if (requestCode == CHECK_CODE) {
-			if (resultCode == TextToSpeech.Engine.CHECK_VOICE_DATA_PASS) {
-				textoRep = new TextToSpeech(this, this);
-			} else {
-				Intent iniciarTSSIntent = new Intent();
-				iniciarTSSIntent
-						.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
-				startActivity(iniciarTSSIntent);
-			}
-		}
-
-	}
-
-	private void Hablar(String Speech) {
-		textoRep.speak(Speech, TextToSpeech.QUEUE_FLUSH, null);
-	}
-
 	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		EditText introTexto = (EditText) findViewById(R.id.enter);
-		String palabras = introTexto.getText().toString();
-		Hablar(palabras);
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
 
-	}
+		int id = item.getItemId();
 
-	@Override
-	public void onInit(int status) {
-		// TODO Auto-generated method stub
-		if (status == TextToSpeech.SUCCESS) {
-			if (textoRep.isLanguageAvailable(Locale.ROOT) == TextToSpeech.LANG_AVAILABLE)
-				textoRep.setLanguage(Locale.ROOT);
-		} else if (status == TextToSpeech.ERROR) {
-			Toast.makeText(this, "Lo Sentimos Hubo Un ERRORSOTE",
-					Toast.LENGTH_LONG);
+		//noinspection SimplifiableIfStatement
+		if (id == R.id.action_settings) {
+			return true;
 		}
-
+		return super.onOptionsItemSelected(item);
 	}
+
 
 }
