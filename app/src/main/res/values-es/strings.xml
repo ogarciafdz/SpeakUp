@@ -133,6 +133,13 @@
     <string name="pegamento">Pegamento</string>
     <string name="borrar">Borrar</string>
     <string name="lonche">Puedo comer mi lonche</string>
+    <string name="papeleria">Vamos a la papeleria</string>
+
+    <!-- Papeleria activity -->
+    <string name="mapa">Por un Mapa</string>
+    <string name="cartulina">por una Cartulina</string>
+
+
 
     <!-- Otras activity -->
     <string name="pudesbanoio">Me puedes dar un baño</string>

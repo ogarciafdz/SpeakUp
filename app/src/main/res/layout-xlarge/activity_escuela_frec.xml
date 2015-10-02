@@ -121,5 +121,17 @@
                 android1:src="@drawable/ic_lonche" 
                 android:contentDescription="@string/hello_world"/>
         </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="77dp" android:weightSum="1">
+        <ImageButton
+                android:id="@+id/EFimagePape"
+                android:layout_width="70dp"
+                android:layout_height="95dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_papeleria"
+                android:scaleType="fitCenter" android:layout_weight="0.06"/>
+    </LinearLayout>
 
 </RelativeLayout>

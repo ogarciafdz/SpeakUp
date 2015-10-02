@@ -4,6 +4,10 @@
     android:versionCode="14"
     android:versionName="Speak1.0" >
 
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
@@ -12,9 +16,9 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="19" />
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +26,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Speakuptheme" >
         <activity
-            android:name="com.speak.speakup.SplashScreen"
+            android:name=".SplashScreen"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
@@ -32,57 +36,59 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.speak.speakup.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.speak.speakup.PersonasActivity"
+            android:name=".PersonasActivity"
             android:label="@string/title_activity_personas" >
         </activity>
         <activity
-            android:name="com.speak.speakup.VerbosActivity"
+            android:name=".VerbosActivity"
             android:label="@string/title_activity_verbos" >
         </activity>
         <activity
-            android:name="com.speak.speakup.ComidaActivity"
+            android:name=".ComidaActivity"
             android:label="@string/title_activity_comida" >
         </activity>
         <activity
-            android:name="com.speak.speakup.RopaActivity"
+            android:name=".RopaActivity"
             android:label="@string/title_activity_ropa" >
         </activity>
         <activity
-            android:name="com.speak.speakup.FrecuenteActivity"
+            android:name=".FrecuenteActivity"
             android:label="@string/title_activity_frecuente" >
         </activity>
         <activity
-            android:name="com.speak.speakup.Juegos"
+            android:name=".Juegos"
             android:label="@string/title_activity_juegos" >
         </activity>
         <activity
-            android:name="com.speak.speakup.PronunciaActivity"
+            android:name=".PronunciaActivity"
             android:label="@string/title_activity_pronuncia" >
         </activity>
         <activity
-            android:name="com.speak.speakup.FullscreenActivity"
+            android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity
-            android:name="com.speak.speakup.CasaFrec"
+            android:name=".CasaFrec"
             android:label="@string/title_activity_casa_frec"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.speak.speakup.EscuelaFrec"
+            android:name=".EscuelaFrec"
             android:label="@string/title_activity_escuela_frec"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.speak.speakup.Otrasfrec"
+            android:name=".Otrasfrec"
             android:label="@string/title_activity_otrasfrec"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".Papeleria" >
         </activity>
     </application>
 

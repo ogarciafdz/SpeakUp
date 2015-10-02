@@ -16,6 +16,10 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -83,6 +87,8 @@
             android:name="com.speak.speakup.Otrasfrec"
             android:label="@string/title_activity_otrasfrec"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.speak.speakup.Papeleria" >
         </activity>
     </application>
 

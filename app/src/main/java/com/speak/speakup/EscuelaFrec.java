@@ -1,5 +1,6 @@
 package com.speak.speakup;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
@@ -23,6 +24,9 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 	private ImageButton abrirp;
 	private ImageButton bano;
 	private ImageButton sentar;
+	private ImageButton papeleria;
+
+
 	MainActivity per = new MainActivity();
 	String getIdioma = per.idioma;
 	String message;
@@ -44,6 +48,9 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 		libreta = (ImageButton) findViewById(R.id.EFimageButton10);
 		borrador = (ImageButton) findViewById(R.id.EFimageButton11);
 		lonche = (ImageButton) findViewById(R.id.EFimageButton12);
+		papeleria = (ImageButton) findViewById(R.id.EFimagePape);
+
+
 
 		lapiz.setOnClickListener(this);
 		tijera.setOnClickListener(this);
@@ -57,6 +64,7 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 		abrirp.setOnClickListener(this);
 		bano.setOnClickListener(this);
 		sentar.setOnClickListener(this);
+		papeleria.setOnClickListener(this);
 	}
 
 	@Override
@@ -224,6 +232,27 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 
 	}
 
+
+	private void papeleria() {
+		message = getString(R.string.papeleria);
+		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+		if (getIdioma.equals("es")) {
+			MediaPlayer.create(this, R.raw.papeleria).start();
+
+		} else if (getIdioma.equals("en")) {
+			MediaPlayer.create(this, R.raw.papeleria).start();
+
+		}
+
+		Intent intent = new Intent(EscuelaFrec.this, Papeleria.class);
+		startActivity(intent);
+		overridePendingTransition(android.R.anim.slide_in_left,
+				android.R.anim.slide_out_right);
+
+
+	}
+
+
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
@@ -240,7 +269,7 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 			prit();
 			break;
 		case R.id.EFimageButton5:
-			color();
+			salir();
 			break;
 		case R.id.EFimageButton6:
 			libreta();
@@ -252,7 +281,7 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 			sentar();
 			break;
 		case R.id.EFimageButton9:
-			salir();
+			color();
 			break;
 		case R.id.EFimageButton10:
 			abrirp();
@@ -264,6 +293,10 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 		case R.id.EFimageButton12:
 			lonche();
 			break;
+			case R.id.EFimagePape:
+				papeleria();
+				break;
+
 		}
 
 	}

@@ -23,6 +23,7 @@
     <string name="camiseta">Camiseta</string>
     <string name="carne">Carne</string>
     <string name="cartas">Cartas</string>
+    <string name="cartulina">por una Cartulina</string>
     <string name="celular">Usar el celular</string>
     <string name="chocolatosa">Leche con chocolate</string>
     <string name="coloreal">Colorear</string>
@@ -59,12 +60,14 @@
     <string name="maestro">Maestro</string>
     <string name="mama">Mamá</string>
     <string name="manzana">Manzana</string>
+    <string name="mapa">Por un Mapa</string>
     <string name="medicina">Me das mi medicina</string>
     <string name="melon">Melon</string>
     <string name="oraciones">Oraciones</string>
     <string name="pan">Pan</string>
     <string name="pantalon">Pantalon</string>
     <string name="papa">Papá</string>
+    <string name="papeleria">Vamos a la papeleria</string>
     <string name="pasta">Pasta</string>
     <string name="pegamento">Pegamento</string>
     <string name="pepino">Pepino</string>

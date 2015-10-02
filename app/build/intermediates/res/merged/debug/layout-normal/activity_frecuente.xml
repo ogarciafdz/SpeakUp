@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/wallnew" >
+    android:background="@drawable/wallnew" android:fillViewport="false">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:context=".FrecuenteActivity" >
+        android:layout_height="match_parent"
+        tools:context=".FrecuenteActivity" android:orientation="vertical">
 
         <ImageButton
             android:id="@+id/fimageButton1"
