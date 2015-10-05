@@ -35,4 +35,4 @@
     <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_speakuptheme" />
     <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_speakuptheme" />
 </selector>
-<!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/drawable/tab_indicator_ab_speakuptheme.xml -->
+<!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/drawable/tab_indicator_ab_speakuptheme.xml -->

@@ -17,4 +17,4 @@
         android:fromXDelta="0" android:toXDelta="100%p"
         android:fromYDelta="0" android:toYDelta="100"
         android:duration="1000" />
-<!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/anim/translate_anim.xml -->
+<!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/anim/translate_anim.xml -->

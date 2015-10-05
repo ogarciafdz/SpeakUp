@@ -44,4 +44,4 @@
         android:background="@drawable/buttonshape"
         android:text="@string/como_se_dice" />
 
-</RelativeLayout><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/layout-normal/activity_pronuncia.xml -->
+</RelativeLayout><!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/layout-normal/activity_pronuncia.xml -->

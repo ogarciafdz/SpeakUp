@@ -17,4 +17,4 @@
         android:toDegrees="360"
         android:pivotX="50%" android:pivotY="50%"
         android:duration="1000"/>
-<!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/anim/rotate_anim.xml -->
+<!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/anim/rotate_anim.xml -->

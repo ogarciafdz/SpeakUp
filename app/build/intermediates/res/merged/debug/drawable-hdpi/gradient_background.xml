@@ -5,4 +5,4 @@
             <gradient android:angle="90" android:endColor="#87CEEB"  android:startColor="#87CEEB" android:type="linear" />
         </shape></item>
 
-</selector><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/drawable-hdpi/gradient_background.xml -->
+</selector><!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/drawable-hdpi/gradient_background.xml -->

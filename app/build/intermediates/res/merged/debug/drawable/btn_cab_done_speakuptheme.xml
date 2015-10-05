@@ -25,4 +25,4 @@
     <item android:state_enabled="true"
         android:drawable="@drawable/btn_cab_done_default_speakuptheme" />
 </selector>
-<!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/drawable/btn_cab_done_speakuptheme.xml -->
+<!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/drawable/btn_cab_done_speakuptheme.xml -->

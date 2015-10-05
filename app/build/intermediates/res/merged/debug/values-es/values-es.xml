@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="abrepuerta">Abrir la puerta</string>
     <string name="abuela">Abuela</string>
@@ -117,7 +117,7 @@
     <string name="we_speak_for_you">We Speak For You</string>
     <string name="zanahoria">Zanahoria</string>
     <string name="zapatos">Zapatos</string>
-    <!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/values-es/styles.xml -->
+    <!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/values-es/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -22,4 +22,4 @@
         android:layout_alignParentBottom="true"
         android:text="@string/we_speak_for_you" />
 
-</RelativeLayout><!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/layout-large/activity_splash.xml -->
+</RelativeLayout><!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/layout-large/activity_splash.xml -->

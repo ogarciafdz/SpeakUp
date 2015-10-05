@@ -16,4 +16,4 @@
 <alpha xmlns:android="http://schemas.android.com/apk/res/android"
         android:fromAlpha="1.0" android:toAlpha="0.0"
         android:duration="500" />
-<!-- From: file:/Users/OscarGarciaRuiz/AndroidStudioProjects/Speakup/app/src/main/res/anim/alpha_anim.xml -->
+<!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/anim/alpha_anim.xml -->
