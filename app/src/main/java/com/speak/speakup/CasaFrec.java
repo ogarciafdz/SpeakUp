@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class CasaFrec extends Activity implements OnClickListener {
 
 	private ImageButton puerta;
+
 	private ImageButton salir;
 	private ImageButton bano;
 	private ImageButton sentar;
