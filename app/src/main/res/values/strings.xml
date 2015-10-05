@@ -133,5 +133,6 @@
     <!-- Other activity -->
     <string name="pudesbanoio"> I can take a bath </string>
     <string name="posicion"> Could change my position </string>
+    <string name="title_activity_cine">CineActivity</string>
 
 </resources>

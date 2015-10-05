@@ -90,6 +90,10 @@
         </activity>
         <activity android:name=".Papeleria" >
         </activity>
+        <activity
+            android:name=".util.CineActivity"
+            android:label="@string/title_activity_cine" >
+        </activity>
     </application>
 
 </manifest>

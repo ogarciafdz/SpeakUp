@@ -232,22 +232,30 @@ public class EscuelaFrec extends Activity implements OnClickListener {
 
 	}
 
-
+//Metodo  para cambiar de actividad cuando  se acabe una reproduccion
 	private void papeleria() {
 		message = getString(R.string.papeleria);
 		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+		MediaPlayer mp = new MediaPlayer();
 		if (getIdioma.equals("es")) {
-			MediaPlayer.create(this, R.raw.papeleria).start();
+			 mp = MediaPlayer.create(this, R.raw.papeleria);
 
 		} else if (getIdioma.equals("en")) {
-			MediaPlayer.create(this, R.raw.papeleria).start();
+			 mp =	MediaPlayer.create(this, R.raw.papeleria);
 
 		}
+		mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
 
-		Intent intent = new Intent(EscuelaFrec.this, Papeleria.class);
-		startActivity(intent);
-		overridePendingTransition(android.R.anim.slide_in_left,
-				android.R.anim.slide_out_right);
+			@Override
+			public void onCompletion(MediaPlayer mp) {
+				Intent intent = new Intent(EscuelaFrec.this, Papeleria.class);
+				startActivity(intent);
+
+			}
+
+		});
+
+		mp.start();
 
 
 	}
