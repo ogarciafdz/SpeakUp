@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:2:1-95:12
+ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:2:1-99:12
 	package
 		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml
@@ -50,7 +50,7 @@ ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:21:30-85
 application
-ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:23:5-93:19
+ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:23:5-97:19
 	android:label
 		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:26:9-41
 	android:allowBackup
@@ -163,3 +163,9 @@ activity#com.speak.speakup.Papeleria
 ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:91:9-92:20
 	android:name
 		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:91:19-44
+activity#com.speak.speakup.util.CineActivity
+ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:93:9-96:20
+	android:label
+		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:95:13-56
+	android:name
+		ADDED from /Users/oscar/AndroidProyects/SpeakUp/app/src/main/AndroidManifest.xml:94:13-46

@@ -30,6 +30,8 @@
     <string name="hermano">Brother</string>
     <string name="maestro">Teacher</string>
     <string name="puedo_">Can i?</string>
+    <string name="ircine">go to cinema</string>
+
 
     <!-- usar en actividades -->
     <string name="comer">Eat</string>
@@ -134,5 +136,10 @@
     <string name="pudesbanoio"> I can take a bath </string>
     <string name="posicion"> Could change my position </string>
     <string name="title_activity_cine">CineActivity</string>
+
+    <!--Cine Activity -->
+    <string name="palomitas">popcorn</string>
+    <string name="dulces">candy</string>
+    <string name="nieve">ice cream</string>
 
 </resources>

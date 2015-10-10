@@ -1,12 +1,15 @@
 package com.speak.speakup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
+import com.speak.speakup.util.CineActivity;
 
 public class VerbosActivity extends Activity implements OnClickListener {
 
@@ -30,6 +33,9 @@ public class VerbosActivity extends Activity implements OnClickListener {
 	private ImageButton Sentarse;
 	private ImageButton Silla;
 	private ImageButton parque;
+	private ImageButton cine;
+
+
 	MainActivity per = new MainActivity();
 	String getIdioma = per.idioma;
 	String message;
@@ -59,6 +65,7 @@ public class VerbosActivity extends Activity implements OnClickListener {
 		Sentarse = (ImageButton) findViewById(R.id.VimageButton18);
 		Silla = (ImageButton) findViewById(R.id.VimageButton19);
 		parque = (ImageButton) findViewById(R.id.VimageButton20);
+		cine = (ImageButton) findViewById(R.id.cine);
 
 		Acostar.setOnClickListener(this);
 		Bano.setOnClickListener(this);
@@ -80,6 +87,7 @@ public class VerbosActivity extends Activity implements OnClickListener {
 		Sentarse.setOnClickListener(this);
 		Silla.setOnClickListener(this);
 		parque.setOnClickListener(this);
+		cine.setOnClickListener(this);
 
 	}
 
@@ -359,71 +367,102 @@ public class VerbosActivity extends Activity implements OnClickListener {
 
 	}
 
+	private void cine() {
+		message = getString(R.string.ircine);
+		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+		MediaPlayer mp = new MediaPlayer();
+		if (getIdioma.equals("es")) {
+			mp = MediaPlayer.create(this, R.raw.cine);
+
+		} else if (getIdioma.equals("en")) {
+			mp =	MediaPlayer.create(this, R.raw.cinema);
+
+		}
+		mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+
+			@Override
+			public void onCompletion(MediaPlayer mp) {
+				Intent intent = new Intent(VerbosActivity.this, CineActivity.class);
+				startActivity(intent);
+
+			}
+
+		});
+
+		mp.start();
+
+
+	}
+
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch (v.getId()) {
-		case R.id.VimageButton1:
-			pressAcostar();
-			break;
-		case R.id.VimageButton2:
-			pressBano();
-			break;
-		case R.id.VimageButton3:
-			pressCama();
-			break;
-		case R.id.VimageButton4:
-			pressCocina();
-			break;
-		case R.id.VimageButton5:
-			pressColorear();
-			break;
-		case R.id.VimageButton6:
-			pressComer();
-			break;
-		case R.id.VimageButton7:
-			pressCasa();
-			break;
-		case R.id.VimageButton8:
-			pressCell();
-			break;
-		case R.id.VimageButton9:
-			pressLibreta();
-			break;
-		case R.id.VimageButton10:
-			pressDormir();
-			break;
-		case R.id.VimageButton11:
-			pressFutbol();
-			break;
-		case R.id.VimageButton12:
-			pressComnunicar();
-			break;
-		case R.id.VimageButton13:
-			pressLapiz();
-			break;
-		case R.id.VimageButton14:
-			pressLeer();
-			break;
-		case R.id.VimageButton15:
-			pressLibro();
-			break;
-		case R.id.VimageButton16:
-			pressTelefono();
-			break;
-		case R.id.VimageButton17:
-			pressSalir();
-			break;
-		case R.id.VimageButton18:
-			pressSentarse();
-			break;
-		case R.id.VimageButton19:
-			pressSilla();
-			break;
-		case R.id.VimageButton20:
-			pressPark();
-			break;
+			case R.id.VimageButton1:
+				pressAcostar();
+				break;
+			case R.id.VimageButton2:
+				pressBano();
+				break;
+			case R.id.VimageButton3:
+				pressCama();
+				break;
+			case R.id.VimageButton4:
+				pressCocina();
+				break;
+			case R.id.VimageButton5:
+				pressColorear();
+				break;
+			case R.id.VimageButton6:
+				pressComer();
+				break;
+			case R.id.VimageButton7:
+				pressCasa();
+				break;
+			case R.id.VimageButton8:
+				pressCell();
+				break;
+			case R.id.VimageButton9:
+				pressLibreta();
+				break;
+			case R.id.VimageButton10:
+				pressDormir();
+				break;
+			case R.id.VimageButton11:
+				pressFutbol();
+				break;
+			case R.id.VimageButton12:
+				pressComnunicar();
+				break;
+			case R.id.VimageButton13:
+				pressLapiz();
+				break;
+			case R.id.VimageButton14:
+				pressLeer();
+				break;
+			case R.id.VimageButton15:
+				pressLibro();
+				break;
+			case R.id.VimageButton16:
+				pressTelefono();
+				break;
+			case R.id.VimageButton17:
+				pressSalir();
+				break;
+			case R.id.VimageButton18:
+				pressSentarse();
+				break;
+			case R.id.VimageButton19:
+				pressSilla();
+				break;
+			case R.id.VimageButton20:
+				pressPark();
+				break;
+			case R.id.cine:
+				cine();
+				break;
 		}
 	}
+
 
 }

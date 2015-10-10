@@ -28,8 +28,8 @@
         <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Speakuptheme</item>
         <item name="android:actionDropDownStyle">@style/DropDownNav.Speakuptheme</item>
         <item name="android:actionBarStyle">@style/ActionBar.Solid.Speakuptheme</item>
-        <item name="android:actionModeBackground">@drawable/cab_background_top_speakuptheme</item>
-        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_speakuptheme</item>
+        <item name="android:actionModeBackground">@drawable/btn_cab_done_speakuptheme</item>
+        <item name="android:actionModeSplitBackground">@drawable/btn_cab_done_speakuptheme</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Speakuptheme</item>
         
         
@@ -43,7 +43,7 @@
     </style>
 
     <style name="ActionBar.Transparent.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/ab_transparent_speakuptheme</item>
+        <item name="android:background">@drawable/ab_background_textured_speakuptheme</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Speakuptheme</item>
     </style>
 

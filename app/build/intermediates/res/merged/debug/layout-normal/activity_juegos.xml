@@ -50,6 +50,7 @@
         android:layout_height="match_parent"
         android:src="@drawable/ic_perr" 
         android:contentDescription="@null"/>
+
 </LinearLayout>
 
 </ScrollView><!-- From: file:/Users/oscar/AndroidProyects/SpeakUp/app/src/main/res/layout-normal/activity_juegos.xml -->

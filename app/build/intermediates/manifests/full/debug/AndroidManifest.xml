@@ -90,6 +90,10 @@
         </activity>
         <activity android:name="com.speak.speakup.Papeleria" >
         </activity>
+        <activity
+            android:name="com.speak.speakup.util.CineActivity"
+            android:label="@string/title_activity_cine" >
+        </activity>
     </application>
 
 </manifest>

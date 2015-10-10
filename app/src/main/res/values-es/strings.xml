@@ -111,6 +111,7 @@
     <string name="sentarse">Sentarme</string>
     <string name="usarsilla">Mover la silla</string>
     <string name="irparque">ir al parque</string>
+    <string name="ircine">ir al cine</string>
 
     <!-- Frecuentes Activity -->
     <string name="title_activity_frecuente">Fraces Frecuentes</string>
@@ -140,9 +141,17 @@
     <string name="cartulina">por una Cartulina</string>
 
 
-
     <!-- Otras activity -->
     <string name="pudesbanoio">Me puedes dar un baño</string>
     <string name="posicion">Podrias cambiar mi posicion</string>
+
+    <!--Cine Activity -->
+    <string name="palomitas">Palomitas</string>
+    <string name="nachos">Nachos</string>
+    <string name="hotdogs">Hotdog</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="dulces">Dulces</string>
+    <string name="nieve">Nieve</string>
+
 
 </resources>

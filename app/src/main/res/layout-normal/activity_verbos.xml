@@ -51,7 +51,6 @@
                     android:id="@+id/VimageButton4"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:layout_weight="1"
                     android:contentDescription="@null"
                     android:src="@drawable/ic_cocina" />
             </LinearLayout>
@@ -203,6 +202,21 @@
                 android:layout_weight="1"
                 android:contentDescription="@null"
                 android:src="@drawable/ic_parque" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/cine"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_cinema"
+                android:scaleType="fitXY" />
+
+
         </LinearLayout>
     </LinearLayout>
 

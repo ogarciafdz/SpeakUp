@@ -45,6 +45,7 @@
     <string name="compu">Use the computer</string>
     <string name="cubiertos">use cutlery</string>
     <string name="dormir"> Go to sleep </string>
+    <string name="dulces">candy</string>
     <string name="escribir"> Write </string>
     <string name="falda">Skirt</string>
     <string name="frecuentes">Frequently</string>
@@ -60,6 +61,7 @@
     <string name="introduce_alguna_frase_">Introduce some phrase </string>
     <string name="ircama"> Go to my bed </string>
     <string name="ircasa"> Go to my house </string>
+    <string name="ircine">go to cinema</string>
     <string name="ircocina"> Go to the kitchen </string>
     <string name="irparque"> go to the park </string>
     <string name="jugar">Play</string>
@@ -76,7 +78,9 @@
     <string name="manzana"> Apple </string>
     <string name="medicina">Give me my medicine </string>
     <string name="melon"> Melon </string>
+    <string name="nieve">ice cream</string>
     <string name="oraciones">Statements</string>
+    <string name="palomitas">popcorn</string>
     <string name="pan"> Bread </string>
     <string name="pantalon">Pair of trousers</string>
     <string name="papa">Father</string>
@@ -106,6 +110,7 @@
     <string name="telefono">Using telephone</string>
     <string name="tenis">Tennis</string>
     <string name="title_activity_casa_frec"> House </string>
+    <string name="title_activity_cine">CineActivity</string>
     <string name="title_activity_comida">Food</string>
     <string name="title_activity_escuela_frec"> School </string>
     <string name="title_activity_frecuente"> Frequently Fraces  </string>
@@ -138,7 +143,7 @@
         <item name="android:progressBarStyle">@style/ProgressBar.Speakuptheme</item>
     </style>
     <style name="ActionBar.Transparent.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/ab_transparent_speakuptheme</item>
+        <item name="android:background">@drawable/ab_background_textured_speakuptheme</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Speakuptheme</item>
     </style>
     <style name="ActionBarTabStyle.Speakuptheme" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
@@ -201,8 +206,8 @@
         <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Speakuptheme</item>
         <item name="android:actionDropDownStyle">@style/DropDownNav.Speakuptheme</item>
         <item name="android:actionBarStyle">@style/ActionBar.Solid.Speakuptheme</item>
-        <item name="android:actionModeBackground">@drawable/cab_background_top_speakuptheme</item>
-        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_speakuptheme</item>
+        <item name="android:actionModeBackground">@drawable/btn_cab_done_speakuptheme</item>
+        <item name="android:actionModeSplitBackground">@drawable/btn_cab_done_speakuptheme</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Speakuptheme</item>
         
         
